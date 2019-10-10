@@ -75,6 +75,7 @@
                     </execution>
                 </executions>
             </plugin>
+            
             <!-- CODE COVERAGE -->
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -192,6 +193,14 @@
             <version>4.12</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
+        <dependency>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>sonar-maven-plugin</artifactId>
+          <version>3.7.0.1746</version>
+          <type>pom</type>
+      </dependency>
+
         <dependency>
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
